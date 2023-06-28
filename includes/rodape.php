@@ -1,4 +1,4 @@
-<footer class="bg-gradient" style="background-color: #F27979; margin-left:-10px; margin-right:-10px;">
+<footer class="bg-gradient rodape">
 <p style="text-align:center; color: dark;">
 &copy; Todos os direitos reservados. Criado pelos alunos do Senac - Geovana, Guilherme, Henrique, Pedro Santos
 
