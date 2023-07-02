@@ -8,17 +8,35 @@
  margin-left:-10px;
      margin-right:-10px;
 }
-.home:hover {
-   color: orange;
 
- transition: background-color 0.3s ease;
+.botao{
+  position: relative;
+  font-size: 0.9em;
+  padding: 0.7em 1.4em;
+  background-color: #196eee;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: #DEDEDE;
+
 }
-.dest:hover {
-    color: rgb(0, 110, 255);
-  transition: background-color 0.3s ease;
- }
- .prod:hover {
-    color: rgb(108, 173, 3);
-  transition: background-color 0.3s ease;
- }
-
+.botao:before{
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #F27979 0%, rgba(33, 33, 33, 0.74) 50%, rgb(18, 69, 179) 50%, rgb(20, 86, 209) 60%);
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.botao:hover:before{
+  width: 1.6em;
+  height: 1.6em;
+}
+.botao:active {
+  box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  transform: translate(0.1em, 0.1em);
+}

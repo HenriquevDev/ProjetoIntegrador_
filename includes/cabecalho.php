@@ -21,21 +21,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item  " >
-            <h5 ><a class="nav-link home" aria-current="page" href="../projetointegrador/index.php">Home</a></h5>
+            <h5 ><a class="nav-link" aria-current="page" href="../projetointegrador/index.php">Home</a></h5>
           </li>
           <li class="nav-item">
-            <h5> <a class="nav-link dest" href="#">Destaques</a></h5>
+            <h5> <a class="nav-link" href="#">Destaques</a></h5>
           </li>
           <li class="nav-item">
-            <h5><a class="nav-link prod" href="#">Produtos</a></h5>
+            <h5><a class="nav-link" href="#">Produtos</a></h5>
           </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-danger bg-danger-subtle " type="submit"><img class="mb-1" src="img/lupa.png" width="15" alt=""></button>
         </form>
-       <a href="paginalogin/login.php"> <button class="btn btn-outline-primary ms-2">Login</button></a>
-        <a href="#"><button class="btn btn-outline-primary ms-2">Registrar</button></a>
+       <a href="paginalogin/login.php"> <button class="botao ms-2">Login</button></a>
+        <a href="#"><button class="botao ms-2">Registrar</button></a>
 
       </div>
     </div>
