@@ -1,6 +1,6 @@
 <footer class="bg-gradient rodape">
 <p style="text-align:center; color: dark;">
-&copy; Todos os direitos reservados. Criado pelos alunos do Senac - Geovana, Guilherme, Henrique, Pedro Santos
+&copy; Todos os direitos reservados. Criado pelos alunos do Senac - , Guilherme, Henrique, Pedro Santos
 
 </p>
 </footer>
