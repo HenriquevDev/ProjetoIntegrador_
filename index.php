@@ -10,7 +10,7 @@ include "../ProjetoIntegrador/includes/cabecalho.php";
 </div>
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <img src="img/aulas.png" class="d-block w-100" alt="...">
+    <img src="img/material.png" class="d-block w-100" alt="...">
   </div>
   <div class="carousel-item">
     <img src="img/materiais.png" class="d-block w-100" alt="...">
@@ -28,6 +28,9 @@ include "../ProjetoIntegrador/includes/cabecalho.php";
   <span class="visually-hidden">Next</span>
 </button>
 </div>
+
+
+
 
 
 <?php

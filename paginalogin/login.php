@@ -9,37 +9,26 @@
   </head>
 <body>
   
-
-<form class="formulario form-control w-25 row position-absolute top-50 start-50 translate-middle">
-  <div class="">
-    <label  class="form-label fw-bold">Nome</label>
-    <input type="text" class="form-control" placeholder="nome" >
-  </div>
-  <div class="">
+<form class="formulario form-control w-50 position-absolute top-50 start-50 translate-middle">
+  <h1 class="text-center mb-5" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Login</h1>
+  <div>
     <label  class="form-label fw-bold">Email</label>
     <input type="emial" class="form-control" placeholder="papelaria@gmail.com">
   </div>
-  <div class="">
+  <div>
     <label  class="form-label fw-bold">Senha</label>
     <input type="password" class="form-control" placeholder="*********">
   </div>
-  <div class="">
-    <label  class="form-label fw-bold"></label>
-    <input type="text" class="form-control">
-  </div>
-  <div class="">
-    <label  class="form-label fw-bold">City</label>
-    <input type="text" class="form-control">
-  </div>
+
   <div>
-    <a  class="link" href="#">ainda não tem uma conta?</a>
+    <a  class="link" href="../paginacadastro/cadastro.php">ainda não tem uma conta?</a> <br>
+    <a  class="link mt-2" href="#">esqueceu sua senha?</a>
   </div>
   
   <div class=" mt-3 text-center">
     <button type="submit">Entrar</button>
   </div>
 </form>
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
