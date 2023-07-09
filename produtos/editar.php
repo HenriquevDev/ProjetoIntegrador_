@@ -9,7 +9,7 @@ $categoria = "";
 $marca = "";
 $preco = "";
 $id_fornecedores = "";
-$sql = "select * from t_produtos where id = $id";
+$sql = "select * from t_produtos where id = '$id'";
 $todos_os_produtos = mysqli_query($conexao, $sql);
 while (
     $um_produto = mysqli_fetch_assoc($todos_os_produtos)):

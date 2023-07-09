@@ -24,7 +24,7 @@ include "../includes/conexao.php";
     while ($um_produto = mysqli_fetch_assoc($todos_os_produtos)) :
     ?>
 
-
+<tr>
         <td class="text-center"><?php echo $um_produto['id']; ?></td>
 
         <td class="text-center"><img style="width: 6em;" src="<?php echo $um_produto['imagem']; ?>"></td>
@@ -39,14 +39,14 @@ include "../includes/conexao.php";
 
         <td><?php echo $um_produto['id_fornecedores']; ?></td>
 
-        <td class="text-center flex-row">
-            <div class="d-flex">
+        <td class="text-center">
+            
                 <a href="vizualizar.php?=<?php echo $um_produto['id']?>"><button class="btn btn-outline-dark">Vizualizar</button></a>
                 <a href="editar.php?=<?php echo $um_produto['id']?>"><button class="btn btn-outline-dark">Editar</button></a>
                 <a href="excluir.php?=<?php echo $um_produto['id']?>"><button class="btn btn-outline-dark">Excluir</button></a>
-            </div>
+            
         </td>
-
+</tr>
     <?php
     endwhile;
     ?>
