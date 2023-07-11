@@ -8,7 +8,6 @@ $descricao = "";
 $categoria = "";
 $marca = "";
 $preco = "";
-$id_fornecedores = "";
 $sql = "select * from t_produtos where id = '$id'";
 $todos_os_produtos = mysqli_query($conexao, $sql);
 while (
@@ -18,7 +17,6 @@ while (
     $categoria = $um_produto["categoria"];
     $marca = $um_produto["marca"];
     $preco = $um_produto["preco"];
-    $id_fornecedores = $um_produto["id_fornecedores"];
 endwhile;
 ?>
 <h1>Editar Produto <?php echo $id;?></h1>

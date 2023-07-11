@@ -14,7 +14,6 @@ include "../includes/conexao.php";
         <td>Categoria</td>
         <td>Marca</td>
         <td>Preco</td>
-        <td>Id Fornecedores</td>
         <td class="col-2">Açoes</td>
     </tr>
 
@@ -37,13 +36,14 @@ include "../includes/conexao.php";
 
         <td><?php echo $um_produto['preco']; ?></td>
 
-        <td><?php echo $um_produto['id_fornecedores']; ?></td>
 
         <td class="text-center">
             
-                <a href="vizualizar.php?=<?php echo $um_produto['id']?>"><button class="btn btn-outline-dark">Vizualizar</button></a>
-                <a href="editar.php?=<?php echo $um_produto['id']?>"><button class="btn btn-outline-dark">Editar</button></a>
-                <a href="excluir.php?=<?php echo $um_produto['id']?>"><button class="btn btn-outline-dark">Excluir</button></a>
+                <a class="me-4" href="vizualizar.php?=<?php echo $um_produto['id']?>"><img src="../img/vizualizar.png" width="32" alt="vizualizar"></a>
+
+                <a class="me-4" href="editar.php?=<?php echo $um_produto['id']?>"><img src="../img/editar.png" width="28" alt="Editar"></a>
+
+                <a href="excluir.php?=<?php echo $um_produto['id']?>"><img src="../img/excluir.png" width="30"alt="excluir"></a>
             
         </td>
 </tr>
