@@ -4,12 +4,9 @@ include "../includes/conexao.php";
 
 $id = $_GET["id"];
 
-$imagem = "";
+
 $descricao = "";
-$categoria = "";
-$marca = "";
-$preco = "";
-$sql = "select * from t_produtos where id = '$id'";
+$sql = "select * from t_produtos where id= $id";
 $todos_os_produtos = mysqli_query($conexao,$sql);
 while($um_produto = mysqli_fetch_assoc($todos_os_produtos)):
 
@@ -24,11 +21,11 @@ endwhile;
 
 <h1>Ficha de Produtos</h1>
 
-Imagem: <?php echo $imagem?> <br>
-Descrição: <?php echo $descricao?> <br>
-Categoria: <?php echo $categoria?> <br>
-Marca: <?php echo $marca?> <br>
-Preço: <?php echo $preco?> <br>
+Imagem: <?php echo $imagem ;?> <br>
+Descrição: <?php echo $descricao ;?> <br>
+Categoria: <?php echo $categoria ;?> <br>
+Marca: <?php echo $marca ;?> <br>
+Preço: <?php echo $preco ;?> <br>
 
 <?php 
 mysqli_close($conexao);

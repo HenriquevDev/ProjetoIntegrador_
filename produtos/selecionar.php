@@ -10,6 +10,7 @@ include "../includes/conexao.php";
     <tr class="table text-center table-secondary table-striped-columns fw-semibold">
         <td>ID</td>
         <td>Imagem</td>
+        <td>Nome</td>
         <td>Descrição</td>
         <td>Categoria</td>
         <td>Marca</td>
@@ -27,6 +28,8 @@ include "../includes/conexao.php";
         <td class="text-center"><?php echo $um_produto['id']; ?></td>
 
         <td class="text-center"><img style="width: 6em;" src="<?php echo $um_produto['imagem']; ?>"></td>
+
+        <td><?php echo $um_produto['nome']; ?></td>
 
         <td><?php echo $um_produto['descricao']; ?></td>
 
