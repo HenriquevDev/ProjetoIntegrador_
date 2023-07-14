@@ -11,6 +11,11 @@ include "../includes/cabecalho.php";
         </div>
 
         <div class="col-3 mb-2">
+            <p class="fw-bold">Nome</p>
+            <input class=" form-control" type="text" name="nome">
+        </div>
+        
+        <div class="col-3 mb-2">
             <p class="fw-bold">Descrição</p>
             <input class=" form-control" type="text" name="descricao">
         </div>

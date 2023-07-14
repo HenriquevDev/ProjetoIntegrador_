@@ -42,11 +42,11 @@ include "../includes/conexao.php";
 
         <td class="text-center">
             
-                <a class="me-4" href="vizualizar.php?=<?php echo $um_produto['id']?>"><img src="../img/vizualizar.png" width="32" alt="vizualizar"></a>
+                <a class="me-4" href="vizualizar.php?id=<?php echo $um_produto['id'];?>"><img src="../img/vizualizar.png" width="32" alt="vizualizar"></a>
 
-                <a class="me-4" href="editar.php?=<?php echo $um_produto['id']?>"><img src="../img/editar.png" width="28" alt="Editar"></a>
+                <a class="me-4" href="editar.php?id=<?php echo $um_produto['id'];?>"><img src="../img/editar.png" width="28" alt="Editar"></a>
 
-                <a href="excluir.php?=<?php echo $um_produto['id']?>"><img src="../img/excluir.png" width="30"alt="excluir"></a>
+                <a href="excluir.php?id=<?php echo $um_produto['id'];?>"><img src="../img/excluir.png" width="30"alt="excluir"></a>
             
         </td>
 </tr>
