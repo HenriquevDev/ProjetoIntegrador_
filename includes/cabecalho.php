@@ -35,7 +35,7 @@
           <button class="btn btn-danger  ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Entrar</button>
         </a>
 
-        <a href="#">
+        <a href="../paginacadastro/cadastro.html">
           <button class="btn btn-danger  ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Registrar</button>
         </a>
 

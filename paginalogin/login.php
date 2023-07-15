@@ -21,7 +21,7 @@
   </div>
 
   <div>
-    <a  class="link" href="../paginacadastro/cadastro.php">ainda não tem uma conta?</a> <br>
+    <a  class="link" href="../paginacadastro/cadastro.html">ainda não tem uma conta?</a> <br>
     <a  class="link mt-2" href="#">esqueceu sua senha?</a>
   </div>
   
