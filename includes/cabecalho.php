@@ -12,7 +12,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg cabecalho">
+  <nav class="navbar navbar-expand-lg cabecalho me-0">
     <div class="container-fluid">
       <a class="navbar-brand text-light" href="../pagina/index.php"><img src="../img/icone.png" class="mb-1" alt="Icone" width="50">Papelaria Novo Mundo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
