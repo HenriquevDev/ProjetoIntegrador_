@@ -60,7 +60,7 @@ endwhile;
                Marca: <?php echo $marca?>
             </dd>
 
-            <dt class="text-end fs-5 mb-2">
+            <dt class="text-end fs-3 mb-2">
                 R$<?php echo $preco?>
             </dt>
             </div>

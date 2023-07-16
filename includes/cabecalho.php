@@ -32,11 +32,11 @@
         </ul>
 
         <a href="../paginalogin/login.php">
-          <button class="btn btn-danger  ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Entrar</button>
+          <button class="btn btn-danger mb-sm-2 ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Entrar</button>
         </a>
 
         <a href="../paginacadastro/cadastro.html">
-          <button class="btn btn-danger  ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Registrar</button>
+          <button class="btn btn-danger mb-sm-2 ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Registrar</button>
         </a>
 
 
