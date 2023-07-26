@@ -24,11 +24,9 @@
             <h5><a class="nav-link" aria-current="page" href="../pagina/index.php">Home</a></h5>
           </li>
           <li class="nav-item">
-            <h5> <a class="nav-link" href="#">Destaques</a></h5>
+            <h5> <a class="nav-link" href="#destaques">Destaques</a></h5>
           </li>
-          <li class="nav-item">
-            <h5><a class="nav-link" href="#">Produtos</a></h5>
-          </li>
+
         </ul>
 
         <a href="../paginalogin/login.php">

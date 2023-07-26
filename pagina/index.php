@@ -29,53 +29,54 @@ include "../includes/conexao.php";
   </button>
 </div>
 
-<?php
-$sql = "select * from t_produtos";
-$todos_os_produtos = mysqli_query($conexao, $sql);
-while ($um_produto = mysqli_fetch_assoc($todos_os_produtos)) :
-?>
-  <div class="container mt-5">
 
-    <div class="row col-lg-4">
+<div id="destaques" class=" container text-center mt-5">
 
-        <div class="col-8 bg-danger-subtle text-center mb-4" style="
-    height:auto;
+  <div class="row justify-content-center">
+    <?php
+    $sql = "select * from t_produtos";
+    $todos_os_produtos = mysqli_query($conexao, $sql);
+    while ($um_produto = mysqli_fetch_assoc($todos_os_produtos)) :
+    ?>
+
+      <div class=" col-3 ms-5 bg-danger-subtle text-center mb-4" style="
+    max-height:100%;
     border-radius:5%;">
-        
-          <img style="max-width:80%; border-radius:10%;" class="mt-3" src="<?php echo $um_produto['imagem']; ?>" alt="Imagem do Produto">
-          <div class="col text-start">
+        <a href="" style="text-decoration: none; color:#141212;">
+          <img style="width:90%; border-radius:10%;" class="mt-3" src="<?php echo $um_produto['imagem']; ?>" alt="Imagem do Produto">
 
-            <dt class="ms-1 col-sm-5 fs-5">
+          <div class="col  text-start">
+
+            <dt class="ms-1 col-sm-5 fs-5 text-nowrap">
               <?php echo $um_produto['nome']; ?>
             </dt>
-
             <dd class="ms-1 col mb-2 ">
               <?php echo $um_produto['descricao']; ?>
             </dd>
-
             <dd class="ms-1 mb-0 lead">
               Categoria: <?php echo $um_produto['categoria']; ?>
             </dd>
-
             <dd class="ms-1 mb-0 lead">
               Marca: <?php echo $um_produto['marca']; ?>
             </dd>
-
-            <dt class="text-end fs-5 mb-2 me-1">
+            <dt class=" text-end fs-4 mb-2 me-1">
               R$<?php echo $um_produto['preco']; ?>
             </dt>
 
-          
-</div>
-        </div>
 
+          </div>
+        </a>
       </div>
 
-    </div>
 
 
 
-<?php endwhile ?>
+
+
+
+    <?php endwhile ?>
+  </div>
+</div>
 <?php
 include "../includes/rodape.php";
 ?>
