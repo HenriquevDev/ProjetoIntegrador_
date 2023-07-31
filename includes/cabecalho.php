@@ -34,14 +34,14 @@
           <button class="btn btn-danger mb-sm-2 ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Entrar</button>
         </a>
 
-        <a href="../paginacadastro/cadastro.html">
+        <a href="../paginacadastro/cadastro.php">
           <button class="btn btn-danger mb-sm-2 ms-2" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Registrar</button>
         </a>
 
 
         <form class="d-flex ms-5" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-danger bg-danger-subtle " type="submit"><img class="mb-1" src="../img/lupa.png" width="15" alt=""></button>
+          <input class="form-control me-2" type="search" id="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger bg-danger-subtle" onclick="search()" type="submit"><img class="mb-1" src="../img/lupa.png" width="15" alt=""></button>
         </form>
 
 

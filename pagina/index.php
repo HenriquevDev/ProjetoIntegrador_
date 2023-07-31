@@ -30,7 +30,7 @@ include "../includes/conexao.php";
 </div>
 
 
-<div id="destaques" class=" container text-center mt-5">
+<div id="destaques" class=" container text-center mt-5 ">
 
   <div class="row justify-content-center">
     <?php
@@ -38,16 +38,14 @@ include "../includes/conexao.php";
     $todos_os_produtos = mysqli_query($conexao, $sql);
     while ($um_produto = mysqli_fetch_assoc($todos_os_produtos)) :
     ?>
+      <a href="" class="col-lg-3 col-md-3 ms-5 text-center mb-4" style="text-decoration: none; color:#141212;">
+        <div style="background:#F2C6C2;border-radius:5%; max-height:100%; min-height: 100%;">
 
-      <div class=" col-3 ms-5 bg-danger-subtle text-center mb-4" style="
-    max-height:100%;
-    border-radius:5%;">
-        <a href="" style="text-decoration: none; color:#141212;">
           <img style="width:90%; border-radius:10%;" class="mt-3" src="<?php echo $um_produto['imagem']; ?>" alt="Imagem do Produto">
 
-          <div class="col  text-start">
+          <div class="col text-start">
 
-            <dt class="ms-1 col-sm-5 fs-5 text-nowrap">
+            <dt name="nome" class="ms-1 col-sm-5 fs-5 text-nowrap">
               <?php echo $um_produto['nome']; ?>
             </dt>
             <dd class="ms-1 col mb-2 ">
@@ -59,15 +57,15 @@ include "../includes/conexao.php";
             <dd class="ms-1 mb-0 lead">
               Marca: <?php echo $um_produto['marca']; ?>
             </dd>
-            <dt class=" text-end fs-4 mb-2 me-1">
+            <dt class="preco text-end fs-4 mb-2 me-1">
               R$<?php echo $um_produto['preco']; ?>
             </dt>
 
 
           </div>
-        </a>
-      </div>
 
+        </div>
+      </a>
 
 
 

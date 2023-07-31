@@ -1,0 +1,177 @@
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
+  .centralizar{
+  border: 30px solid transparent;
+  font-size: 17px;
+  text-align: center;
+  max-width: 500px; 
+  width:400px; 
+  position:relative;
+   top:150px;
+  height:230px; 
+  margin: 0 auto;
+  }
+
+  .body{
+    background: linear-gradient(90deg, #dbdbd3, #F27979);
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    
+    
+    .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    
+    
+    .formLogin {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 40px;
+        box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+        gap: 5px
+    }
+    
+    .areaLogin img {
+        width: 420px;
+    }
+    
+    .formLogin h1 {
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        font-size: 2.3em;
+    }
+    
+    .formLogin p {
+        display: inline-block;
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 25px;
+    }
+    
+    .formLogin input {
+        padding: 15px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        border-radius: 4px;
+        transition: all linear 160ms;
+        outline: none;
+    }
+    
+    
+    .formLogin input:focus {
+        border: 1px solid #71734C;
+    }
+    
+    .formLogin label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .formLogin a {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 13px;
+        color: #555;
+        transition: all linear 160ms;
+    }
+    
+    .formLogin a:hover {
+        color: #dd649a;
+    }
+    
+    button {
+        outline: none;
+        cursor: pointer;
+        border: none;
+        padding: 0.9rem 2rem;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        position: relative;
+        display: inline-block;
+        letter-spacing: 0.05rem;
+        font-weight: 70;
+        font-size: 17px;
+        border-radius: 500px;
+        overflow: hidden;
+        background: #F27979;
+        color: ghostwhite;
+        width: 220px;
+        left: 26px;
+       }
+       
+       button span {
+        position: relative;
+        z-index: 10;
+        transition: color 0.5s;
+       }
+       
+       button:hover span {
+        color: black;
+       }
+       
+       button::before,
+       button::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+       }
+       
+       button::before {
+        content: "";
+        background: #000;
+        width: 120%;
+        left: -10%;
+        transform: skew(30deg);
+        transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+       }
+       
+       button:hover::before {
+        transform: translate3d(100%, 0, 0);
+       }
+       
+    .loginicon{
+        width: 30px;
+    }

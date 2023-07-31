@@ -21,12 +21,12 @@ endwhile;
 ?>
 <center>
     
-<h1 >Ficha do Produto <?php echo $id?></h1>
+<h1 class="mt-5">Ficha do Produto <?php echo $id?></h1>
 </center>
 
-<div class="container">
+<div class="container mt-5">
     <div class="row me-0">
-        <div class="col-4 mt-3 mb-4">
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3 mb-4">
             <a href="selecionar.php">
                 <button style="width: 40%;" class="btn btn-outline-danger">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left me-4" viewBox="0 0 16 16">
