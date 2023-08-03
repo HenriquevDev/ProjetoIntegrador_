@@ -38,19 +38,16 @@ include "../includes/conexao.php";
     $todos_os_produtos = mysqli_query($conexao, $sql);
     while ($um_produto = mysqli_fetch_assoc($todos_os_produtos)) :
     ?>
-      <a href="" class="col-lg-3 col-md-3 ms-5 text-center mb-4" style="text-decoration: none; color:#141212;">
+      <a href="../paginacompra/index.php?id=<?php echo $um_produto['id'];?>" class="col-lg-3 col-md-3 ms-5 text-center mb-4" style="text-decoration: none; color:#141212;">
         <div style="background:#F2C6C2;border-radius:5%; max-height:100%; min-height: 100%;">
 
           <img style="width:90%; border-radius:10%;" class="mt-3" src="<?php echo $um_produto['imagem']; ?>" alt="Imagem do Produto">
 
           <div class="col text-start">
 
-            <dt name="nome" class="ms-1 col-sm-5 fs-5 text-nowrap">
+            <dt name="nome" class="ms-1 col-sm-5 fs-5 text-wrap col-md-9">
               <?php echo $um_produto['nome']; ?>
             </dt>
-            <dd class="ms-1 col mb-2 ">
-              <?php echo $um_produto['descricao']; ?>
-            </dd>
             <dd class="ms-1 mb-0 lead">
               Categoria: <?php echo $um_produto['categoria']; ?>
             </dd>
