@@ -19,12 +19,12 @@
     <div class="row row-cols-2">
   <div>
     <label  class="form-label fw-bold">Nome</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="Nome completo">
+    <input type="text" placeholder="Digite Seu Nome" autofocus="true"  placeholder="Nome completo">
   </div>
 
   <div>
     <label  class="form-label fw-bold">Rua</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="">
+    <input type="text" placeholder="Digite sua Rua" autofocus="true"  placeholder="">
   </div>
   <div>
 
@@ -33,35 +33,35 @@
   </div>
   <div>
     <label  class="form-label fw-bold">Cidade</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="">
+    <input type="text" placeholder="Digite sua Cidade" autofocus="true"  placeholder="">
   </div>
   <div>
     <label  class="form-label fw-bold">Senha</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="*********">
+    <input type="password" placeholder="*********" autofocus="true"  placeholder="*********">
   </div>
 
   <div>
     <label  class="form-label fw-bold">CEP</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="00000-000" maxlength="8">
+    <input type="number" placeholder="00000-000" autofocus="true"  placeholder="00000-000" maxlength="8">
   </div>
 
   <div>
     <label  class="form-label fw-bold">Telefone</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="(00) 00000-0000">
+    <input type="number" placeholder="(00)00000-0000" autofocus="true"  placeholder="(00) 00000-0000">
   </div>
 
   <div>
     <label  class="form-label fw-bold">Complemento</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="">
+    <input type="text" placeholder="Complemento" autofocus="true"  placeholder="">
   </div>
 
   <div>
     <label  class="form-label fw-bold">CPF</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="00000-000" maxlength="8">
+    <input type="number" placeholder="00000000000" autofocus="true"  placeholder="00000000000" maxlength="13">
   </div>
   <div>
     <label  class="form-label fw-bold">Estado</label>
-    <input type="email" placeholder="Digite seu e-mail" autofocus="true"  placeholder="">
+    <input type="text" placeholder="Digite seu e-mail" autofocus="true"  placeholder="">
   </div>
   <div>
   </main>
@@ -71,8 +71,8 @@
 <div class="col-12">
   <div class="row justify-content-center">
 
-  <button class= "botao"  type= "submit"> <span>Entrar</span>
-</button>
+  <a href="../pagina/index.php"><button class= "botao"  type= "submit"> <span>Entrar</span>
+</button></a>
 </form>
 </div>
 </div>
