@@ -38,6 +38,7 @@
         echo "Nenhum produto encontrado.";
     }
     ?>
+    <p><a href="adicionar.php">Adicionar Produto</a></p>
 </body>
 </html>
 
