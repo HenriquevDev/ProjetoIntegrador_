@@ -37,8 +37,10 @@ include "../includes/conexao.php";
 
 
       <a href="../pagina/index.php">
-        <button class="btn" type="submit">Entrar
-        </button>
+        <div class="button"><span>Entrar</span>
+          
+      </div>
+        
       </a>
 
     </form>

@@ -72,8 +72,9 @@
 </div>
 <br>
 <div class="d-flex justify-content-center">
-<button class= "botao"  type= "submit"> <span>Cadastrar</span>
-</button>
+  <a href="../pagina/index.php">
+<div class="button">Entrar</div>
+</a>
 </div>
 
 </form>

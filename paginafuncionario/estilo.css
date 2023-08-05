@@ -156,7 +156,7 @@ button:active {
         color: #dd649a;
     }
     
-    button {
+    .button {
         outline: none;
         cursor: pointer;
         border: none;
@@ -177,18 +177,18 @@ button:active {
         left: 26px;
        }
        
-       button span {
+       .button span {
         position: relative;
         z-index: 10;
         transition: color 0.5s;
        }
        
-       button:hover span {
+       .button:hover span {
         color: black;
        }
        
-       button::before,
-       button::after {
+       .button::before,
+       .button::after {
         position: absolute;
         top: 0;
         left: 0;
@@ -197,7 +197,7 @@ button:active {
         z-index: 0;
        }
        
-       button::before {
+       .button::before {
         content: "";
         background: #000;
         width: 120%;
@@ -206,7 +206,7 @@ button:active {
         transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
        }
        
-       button:hover::before {
+       .button:hover::before {
         transform: translate3d(100%, 0, 0);
        }
        
